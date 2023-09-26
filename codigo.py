@@ -14,9 +14,9 @@ pyautogui.press('win')
 pyautogui.write("chrome")
 pyautogui.press('enter')
 
-time.sleep(0.5)
-# x=542, y=587
-pyautogui.click(x=711, y=584) # se por a propriedade clicks = 2 ele clica 2x
+time.sleep(1)
+#  x=542, y=587
+pyautogui.click(x=711, y=584 ) # se por a propriedade clicks = 2 ele clica 2x
 
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 pyautogui.write(link)
@@ -32,7 +32,8 @@ pyautogui.press('tab')
 pyautogui.write(senha)
 pyautogui.press('enter')
 
-
+time.sleep(.7)
+pyautogui.press('enter')
 tabela = pa.read_csv("produtos.csv")
 
 for linha in tabela.index: 
