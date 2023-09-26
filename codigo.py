@@ -32,7 +32,7 @@ pyautogui.press('tab')
 pyautogui.write(senha)
 pyautogui.press('enter')
 
-time.sleep(.7)
+time.sleep(1)
 pyautogui.press('enter')
 tabela = pa.read_csv("produtos.csv")
 
